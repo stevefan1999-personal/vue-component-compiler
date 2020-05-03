@@ -3,7 +3,7 @@ import {
   StyleOptions,
   TemplateOptions,
   ScriptOptions
-} from './compiler'
+} from './compiler.ts'
 
 export const createCompiler = ({
   script,
@@ -32,5 +32,5 @@ export const createDefaultCompiler = (options: {
     }
   })
 
-export * from './compiler'
-export * from './assembler'
+export * from './compiler.ts'
+export * from './assembler.ts'
