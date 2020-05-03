@@ -15,7 +15,7 @@ import {
 import { AssetURLOptions } from '@vue/component-compiler-utils/dist/templateCompilerModules/assetUrl'
 
 import postcssModules from 'postcss-modules-sync'
-import postcssClean from './postcss-clean'
+import postcssClean from './postcss-clean.ts'
 import * as fs from 'fs'
 import * as path from 'path'
 
