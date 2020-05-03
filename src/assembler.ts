@@ -1,6 +1,6 @@
 import { SourceMapGenerator } from 'source-map'
-import { SFCCompiler, DescriptorCompileResult } from './compiler'
-import { merge } from './source-map'
+import { SFCCompiler, DescriptorCompileResult } from './compiler.ts'
+import { merge } from './source-map.ts'
 import * as path from 'path'
 
 // const merge = require('merge-source-map')
